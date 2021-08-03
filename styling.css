@@ -1,0 +1,239 @@
+.body{
+
+    background-color: whitesmoke;
+	font-family: Arial, Helvetica, sans-serif;
+	
+}
+
+  
+* {box-sizing: border-box}
+
+  
+  .navbar {
+	width: 100%;
+	background-color: #555;
+	overflow: auto;
+	bottom: 0;
+	position: fixed;
+	width: 99%;
+	margin-bottom: 2px;
+  }
+  
+  .navbar a {
+	float: left;
+	padding: 12px;
+	color: white;
+	text-decoration: none;
+	font-size: 17px;
+	width: 25%;
+	text-align: center;
+	
+  }
+  
+  .navbar a:hover {
+	background-color: #000;
+  }
+  
+  .navbar a.active {
+	background-color: #04AA6D;
+  }
+  
+  @media screen and (max-width: 500px) {
+	.navbar a {
+	  float: none;
+	  display: block;
+	  width: 100%;
+	  text-align: left;
+	}
+  }
+  
+
+
+#spanid
+{
+	font-size: 2.2rem;
+	font-family: lucida calligraphy;
+	text-decoration: underline;
+}
+
+#skills
+{
+	margin: 2rem;
+	padding: 1rem;
+	width: 50%;
+	font-size: 19px;
+}
+#skills h2
+{
+	text-align: center;
+}
+#hobbies
+{
+
+	margin: 2rem;
+	padding: 1rem;
+	width: 50%;
+	font-size: 19px;
+}
+#hobbies h2
+{
+	text-align: center;
+}
+#projects
+{
+		
+		margin: 2rem;
+		padding: 1rem;
+		font-size: 19px;
+		text-align: center;
+}
+#projects p
+{
+	font-size: 20px;
+	font-style: italic;
+}
+#projects dt,dd
+{
+	text-align: left;
+}
+
+ul {
+	background: #3399ff;
+	padding: 20px;
+  }
+  ul li {
+	background: #cce5ff;
+	margin: 5px;
+  }  
+
+#div1
+{
+	display: inline-flex; width: 100%;
+}
+#div2
+{
+	display: inline-flex; width: 100%;
+}
+#services
+{
+	box-sizing: border-box;
+	border: 2px solid black;
+	margin: 2rem;
+	padding: 1rem;
+	font-size: 19px;
+	text-align: center;
+}
+#services span
+{
+	font-size: 20px;
+	font-style: italic;
+}
+
+#button_id
+{
+	font-style: italic;
+	font-size: 30px;
+	text-align: center;
+	background-color: yellow; 
+}
+.fb
+{
+	padding:4px;
+	display: inline-block;
+	size: 2rem;
+	size: 70px;
+	box-shadow: 2px black;
+}
+
+.centered {
+	
+	
+	text-align: center;
+  }
+  
+  .centered img {
+	width: 20rem;
+	border-radius: 50%;
+  }
+
+  .button {
+   
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    width: 70%;
+    
+    
+  }
+  
+  .button2 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #008CBA;
+  }
+  
+  .button2:hover {
+    background-color: #008CBA;
+    color: white;
+  }
+  
+  hr.new3 {
+	border-top: 1px dotted red;
+	border-radius: 3px;
+  }
+
+  
+  .skills{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.skills p:hover{
+
+	font-size: 30px ;
+}
+
+.tex{
+	text-shadow: 2px 2px 5px blue;
+	text-align: center;
+	font-size: 50px;
+  }
+
+
+  .fa {
+	padding: 20px;
+	font-size: 30px;
+	width: 30px;
+	text-align: center;
+	text-decoration: none;
+	margin: 5px 2px;
+	border-radius: 50%;
+  }
+  .fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-linkedin {
+	background: #007bb5;
+	color: white;
+  }
+  
+  
+  .fa-instagram {
+	background: #125688;
+	color: white;
+  }
