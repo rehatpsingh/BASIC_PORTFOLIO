@@ -1,0 +1,419 @@
+.body,html
+{
+    background-color: #030c1c;
+	font-family: Arial, Helvetica, sans-serif;
+	height: 100%;
+	margin: 0;	
+}
+* {box-sizing: border-box}
+.parallax 
+{
+	background-image: url('piccs.jpg');
+	height: 40%; 
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+} 
+.navbar 
+{
+	width: 100%;
+	background-color: rgb(21, 119, 184);
+	overflow: auto;
+	bottom: 0;
+	position: fixed;
+	width: 99%;
+	margin-bottom: 2px;
+  }
+.navbar a {
+	float: left;
+	padding: 12px;
+	color: white;
+	text-decoration: none;
+	font-size: 17px;
+	width: 25%;
+	text-align: center;
+	
+  }
+  
+.navbar a:hover {
+	background-color: #000;
+  }
+  
+.navbar a.active {
+	background-color: #05ad70;
+  }
+  
+@media screen and (max-width: 500px) {
+	.navbar a {
+	  float: none;
+	  display: block;
+	  width: 100%;
+	  text-align: left;
+	}
+  }
+  
+  .typewriter h1 {
+	color: rgb(255, 255, 255);
+	font-family: monospace;
+	overflow: hidden; /* Ensures the content is not revealed until the animation */
+	border-right: .15em solid orange; /* The typwriter cursor */
+	white-space: nowrap; /* Keeps the content on a single line */
+	margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+	letter-spacing: .15em; /* Adjust as needed */
+	animation: 
+	  typing 25s steps(200, end),
+	  blink-caret .5s step-end infinite;
+	padding-bottom: 20px;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+	from { width: 0 }
+	to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+	from, to { border-color: transparent }
+	30% { border-color: orange }
+  }
+ 
+
+#skills
+{
+	margin: 2rem;
+	padding: 1rem;
+	width: 100%;
+	font-size: 19px;
+	font-family: 'Gudea';font-size: 22px;
+}
+#skills h2
+{
+	text-align: center;
+}
+#hobbies
+{
+	margin: 2rem;
+	padding: 1rem;
+	width: 100%;
+	font-size: 30px;
+	font-family: 'Raleway', sans-serif;
+	color: white;
+}
+#hobbies h2
+{
+	text-align: center;
+	font-size: 40px;
+}
+#projects
+{
+		
+		margin: 2rem;
+		padding: 1rem;
+		font-size: 19px;
+		text-align: center;
+		color: white;
+		
+}
+#projects p
+{
+	font-size: 20px;
+	font-style: italic;
+}
+#projects dt,dd
+{
+	text-align: left;
+}
+#skills h2{
+
+	font-size: 50px;
+}
+
+ul {
+	list-style: none;
+  }
+	ul li::before {
+		content: "";
+		background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/fb-heart.gif);
+		background-size: contain;
+		display: inline-block;
+		width: 1em;
+		height: 1em;
+		position: relative;
+		top: 0.1rem;
+		margin-right: 0.2rem;
+  }
+  
+
+#div1
+{
+	display: inline-flex; 
+	width: 100%;
+}
+#div2
+{
+	display: inline-flex;
+    width: 100%;
+	color: rgb(248, 241, 241);
+}
+#services
+{
+	box-sizing: border-box;
+	border: 10px solid black;
+	margin: 2rem;
+	padding: 1rem;
+	font-size: 19px;
+	text-align: center;
+	background-color: whitesmoke;
+}
+#services span
+{
+	font-size: 20px;
+	font-style: italic;
+}
+#services h2{
+
+	 font-size: 40px;
+}
+#social_media h2{
+
+	font-size: 40px;
+}
+.text2
+{
+	font-size: 40px;
+	color: white;
+}
+.fb
+{
+	padding:4px;
+	display: inline-block;
+	size: 2rem;
+	size: 70px;
+	box-shadow: 2px black;
+}
+
+.centered 
+{
+	text-align: center;
+}
+  
+.centered img
+ {
+	width: 20rem;
+	border-radius: 50%;
+	border: 5px solid rgb(44, 125, 231);
+	margin: 10px;
+	padding: 2px;
+  }
+
+.button 
+{
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    width: 70%;   
+}
+  
+.button2 {
+    background-color: #008CBA; 
+    color: white; 
+    border: 3px solid #ffffff;
+	font-family: arial black;	
+}  
+.button2:hover {
+    background-color: #f9fafa;
+    color:#008CBA ;
+}
+.button1 {
+	margin-left: 20px;
+    background-color: green; 
+    color: white; 
+    border: 3px solid #ffffff;
+	font-family: arial black;
+	width: 10%;
+}
+  
+.button1:hover {
+    background-color: #f9fafa;
+    color:green ;
+}
+  
+hr.new3 
+{
+	border-top: 2px dotted red;
+	border-radius: 3px;
+	width: 60%;
+	height: 2px;
+} 
+.skills{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 22px;
+}
+.skills p:hover{
+
+	font-size: 30px ;
+	border:solid #000;
+	background-color: blue;
+	padding: 2px;
+}
+.tex{
+	text-shadow: 2px 5px 5px blue;
+	text-align: center;
+	font-size: 60px;
+	color: white;
+	
+  }
+.tex1
+{
+	text-shadow: 2px 5px 5px blue;
+	text-align: center;
+	font-size: 60px;
+	color: black;
+}
+.fa {
+	padding: 20px;
+	font-size: 30px;
+	width: 50px;
+	text-align: center;
+	text-decoration: none;
+	margin: 5px 2px;
+  }
+.fa:hover
+{
+	  opacity: 0.7;
+}
+  
+.fa-facebook 
+{
+	background: #3B5998;
+	color: white;
+}  
+.fa-twitter
+{
+	background: #55ACEE;
+	color: white;
+}
+.fa-linkedin
+{
+	background: #007bb5;
+	color: white;
+}  
+.fa-youtube 
+{
+	background: #bb0000;
+	color: white;
+}
+.fa-instagram 
+{
+	background: #125688;
+	color: white;
+}
+
+/* NEON TEXT IN THE START */
+@font-face {
+	font-family: 'neontubes';
+	src: url("https://bitbucket.org/kennethjensen/webfonts/raw/fc13c1cb430a0e9462da56fe3f421ff7af72db71/neontubes/neontubes-webfont.eot");
+	src: url("https://bitbucket.org/kennethjensen/webfonts/raw/fc13c1cb430a0e9462da56fe3f421ff7af72db71/neontubes/neontubes-webfont.eot?#iefix") format("embedded-opentype"), url("https://bitbucket.org/kennethjensen/webfonts/raw/fc13c1cb430a0e9462da56fe3f421ff7af72db71/neontubes/neontubes-webfont.woff2") format("woff2"), url("https://bitbucket.org/kennethjensen/webfonts/raw/fc13c1cb430a0e9462da56fe3f421ff7af72db71/neontubes/neontubes-webfont.woff") format("woff"), url("https://bitbucket.org/kennethjensen/webfonts/raw/fc13c1cb430a0e9462da56fe3f421ff7af72db71/neontubes/neontubes-webfont.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+  }
+body {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	 background: #000000;
+  }
+  
+.main {
+	display: block;
+	position: absolute;
+	top: 50%;
+	left: 30%;
+	-webkit-transform: translate(-50%, -50%);
+			transform: translate(-50%, -50%);
+	width: 50vw;
+	height: auto;
+	font-family: "neontubes";
+	font-size: 6vw;
+	text-align: center;
+	white-space: nowrap;
+  }
+.main span {
+	display: block;
+	position: relative;
+	-webkit-transform: translateZ(0) translate3D(0, 0, 0);
+			transform: translateZ(0) translate3D(0, 0, 0);
+	-webkit-backface-visibility: hidden;
+			backface-visibility: hidden;
+	will-change: opacity;
+  }
+.main .webdev {
+	color: #ffd9e2;
+	text-shadow: 0 0 0 transparent, 0 0 10px #ff003c, 0 0 20px rgba(255, 0, 60, 0.5), 0 0 40px #ff003c, 0 0 100px #ff003c, 0 0 200px #ff003c, 0 0 300px #ff003c, 0 0 500px #ff003c, 0 0 1000px #ff003c;
+	-webkit-animation: blink 4s infinite alternate;
+			animation: blink 4s infinite alternate;
+  }
+
+  @-webkit-keyframes buzz {
+	70% {
+	  opacity: 0.80;
+	}
+  }
+  
+  @keyframes buzz {
+	70% {
+	  opacity: 0.80;
+	}
+  }
+  @-webkit-keyframes blink {
+	40% {
+	  opacity: 1;
+	}
+	42% {
+	  opacity: 0.8;
+	}
+	43% {
+	  opacity: 1;
+	}
+	45% {
+	  opacity: 0.2;
+	}
+	46% {
+	  opacity: 1;
+	}
+  }
+  @keyframes blink {
+	40% {
+	  opacity: 1;
+	}
+	42% {
+	  opacity: 0.8;
+	}
+	43% {
+	  opacity: 1;
+	}
+	45% {
+	  opacity: 0.2;
+	}
+	46% {
+	  opacity: 1;
+	}
+  }
+  @media screen and (min-width: 500px) {
+	.main {
+	  width: 450px;
+	  font-size: 90px;
+	}
+  
+	
+  }
