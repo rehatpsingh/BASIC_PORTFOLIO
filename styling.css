@@ -328,7 +328,7 @@ hr.new3
   }
   @media only screen and (max-width: 425px) {
    
-	.skills{
+    .skills{
 		flex-direction: column;
 	}
     .navbar{
